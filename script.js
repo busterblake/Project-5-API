@@ -36,3 +36,9 @@ fetch(url)
       easing: "spring(1, 80, 10, 0)" // mass stiffness damping velocity
     });
   });
+
+
+  // mass is how heavy the object feels
+  // stiffness is how stiff the spring is
+  // damping is how much the spring slows down over time
+  // velocity is how fast the object is moving when the animation starts
